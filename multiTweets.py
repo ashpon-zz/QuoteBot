@@ -34,7 +34,7 @@ def sendMsg(id, msg):
 # api.send_direct_message(user="fervis_lauan", text="Hey There!")
 # # Tweet a random quote
 i = 0
-x = 85
+x = 95
 for quote in happy_quotes:
     # Call the TweetQuotes function and specify the tweet number
     msg = "Heroku Test " + str(x)
@@ -43,6 +43,7 @@ for quote in happy_quotes:
     time.sleep(20)
     # Add 1 to the counter prior to re-running the loop
     i+=1
+    x = x+i
 
 # i=0
 # # sendMsg("fervis_lauan","Sending you the message ViA function")
