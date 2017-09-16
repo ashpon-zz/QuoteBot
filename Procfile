@@ -1,1 +1,1 @@
-worker: python weatherTweet.py
+worker: python multiTweets.py
