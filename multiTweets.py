@@ -36,7 +36,8 @@ def sendMsg(id, msg):
 i = 0
 for quote in happy_quotes:
     # Call the TweetQuotes function and specify the tweet number
-    TweetOut(('Heroku Test:' + happy_quotes[i]),i)
+    msg = "Heroku Test " + str(i)
+    TweetOut((msg +" " + happy_quotes[i]),i)
     # Once tweeted, wait 60 seconds before doing anything else
     time.sleep(20)
     # Add 1 to the counter prior to re-running the loop
