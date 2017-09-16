@@ -43,7 +43,6 @@ for quote in happy_quotes:
     time.sleep(20)
     # Add 1 to the counter prior to re-running the loop
     i+=1
-    x+= 1
 
 # i=0
 # # sendMsg("fervis_lauan","Sending you the message ViA function")
